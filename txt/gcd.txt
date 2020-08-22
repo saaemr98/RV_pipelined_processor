@@ -1,0 +1,86 @@
+------------------------------------------
+Initial Register File State
+------------------------------------------
+x          0: 00000000
+x          1: 00000000
+x          2: 010f423c
+x          3: xxxxxxxx
+x          4: xxxxxxxx
+x          5: xxxxxxxx
+x          6: xxxxxxxx
+x          7: xxxxxxxx
+x          8: xxxxxxxx
+x          9: xxxxxxxx
+x         10: xxxxxxxx
+x         11: xxxxxxxx
+x         12: xxxxxxxx
+x         13: xxxxxxxx
+x         14: xxxxxxxx
+x         15: xxxxxxxx
+x         16: xxxxxxxx
+x         17: xxxxxxxx
+x         18: xxxxxxxx
+x         19: xxxxxxxx
+x         20: xxxxxxxx
+x         21: xxxxxxxx
+x         22: xxxxxxxx
+x         23: xxxxxxxx
+x         24: xxxxxxxx
+x         25: xxxxxxxx
+x         26: xxxxxxxx
+x         27: xxxxxxxx
+x         28: xxxxxxxx
+x         29: xxxxxxxx
+x         30: xxxxxxxx
+x         31: xxxxxxxx
+------------------------------------------
+
+WARNING: ./include/data_memory_module.v:29: $readmemh: Standard inconsistency, following 1364-2005.
+WARNING: ./include/data_memory_module.v:29: $readmemh(test/gcd.x): Not enough words in the file for the requested range [0:249999].
+VCD info: dumpfile gcd.vcd opened for output.
+VCD warning: ignoring signals in previously scanned scope dut.insn_memory.
+VCD warning: ignoring signals in previously scanned scope dut.decoder.
+VCD warning: ignoring signals in previously scanned scope dut.register_file.
+VCD warning: ignoring signals in previously scanned scope dut.imm_generator.
+VCD warning: ignoring signals in previously scanned scope dut.alu.
+VCD warning: ignoring signals in previously scanned scope dut.writeback.
+VCD warning: ignoring signals in previously scanned scope dut.data_memory.
+VCD warning: ignoring signals in previously scanned scope dut.forwarding_control.
+VCD warning: ignoring signals in previously scanned scope dut.stall_detect.
+VCD warning: ignoring signals in previously scanned scope dut.jump_detect.
+------------------------------------------
+After Execution Registers
+------------------------------------------
+x          0: 00000000
+x          1: 00000000
+x          2: 010f423c
+x          3: xxxxxxxx
+x          4: xxxxxxxx
+x          5: xxxxxxxx
+x          6: xxxxxxxx
+x          7: xxxxxxxx
+x          8: xxxxxxxx
+x          9: xxxxxxxx
+x         10: 00000001
+x         11: xxxxxxxx
+x         12: xxxxxxxx
+x         13: xxxxxxxx
+x         14: 00000004
+x         15: 00000001
+x         16: xxxxxxxx
+x         17: xxxxxxxx
+x         18: xxxxxxxx
+x         19: xxxxxxxx
+x         20: xxxxxxxx
+x         21: xxxxxxxx
+x         22: xxxxxxxx
+x         23: xxxxxxxx
+x         24: xxxxxxxx
+x         25: xxxxxxxx
+x         26: xxxxxxxx
+x         27: xxxxxxxx
+x         28: xxxxxxxx
+x         29: xxxxxxxx
+x         30: xxxxxxxx
+x         31: xxxxxxxx
+------------------------------------------
